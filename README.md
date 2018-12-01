@@ -19,7 +19,7 @@
 * access_token_secret = Access token secret
 
 # Alternative of step 3:
-* In main.py file update values of line number from 12 to 15 as per your key and tokens.
+* In main.py file update values from line number 12 to 15 as per your keys and tokens.
 
 # Step 4: Run the file
 * python main.py
