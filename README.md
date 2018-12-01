@@ -1,4 +1,6 @@
-# Search Twitter tweets with Twitter's Streaming API
+# Search Twitter tweets by word with Twitter's Streaming API
+* It gives the latest tweets. Tweets created from last 5 mins. If no tweets it will simply keep on hit the server and will try to get the new tweet if created recently.
+* Output: It's a list: Username, tweet created at, and user's total number of tweets. For Ex: [xyz, Sat Dec 01 11:07:56 +0000 2018, 10]
 
 # Step 1: Requirements.txt
 >> Tweepy is a python library which uses streaming API. For more info click [here](http://docs.tweepy.org/en/v3.5.0/)
