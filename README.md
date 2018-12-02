@@ -4,7 +4,9 @@
 
 # Step 1: Requirements.txt
 >> Tweepy is a python library which uses streaming API. For more info click [here](http://docs.tweepy.org/en/v3.5.0/)
-* pip install tweepy
+* tweepy
+* pytz
+* requests
 
 # Step 2: Setup the twitter's developer account (A very important step)
 * Go to twitter's developer's account click [here](https://developer.twitter.com/content/developer-twitter/en.html)
@@ -25,3 +27,7 @@
 
 # Step 4: Run the file
 * python main.py
+
+
+# Note:
+* There is a known issue for timeout, connection error, ssl. For more info please refer [this](https://github.com/tweepy/tweepy/issues/617)
